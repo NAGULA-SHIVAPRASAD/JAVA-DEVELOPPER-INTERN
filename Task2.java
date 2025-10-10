@@ -14,8 +14,8 @@ public class Task2 {
         while (running) {
             // Menu
             System.out.println("\n=== Temperature Converter ===");
-            System.out.println("1. Celsius → Fahrenheit");
-            System.out.println("2. Fahrenheit → Celsius");
+            System.out.println("1. Celsius -> Fahrenheit");
+            System.out.println("2. Fahrenheit -> Celsius");
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
             int choice = s1.nextInt();
@@ -38,6 +38,6 @@ public class Task2 {
                     System.out.println("Invalid choice! Please try again.");
             }
         }
-        s1.close();
+        
     }
 }
